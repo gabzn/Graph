@@ -77,3 +77,7 @@ def find_conversion_rate(rate_graph, f_currency, t_currency, res):
     else:
         res.append(-1.0)
   
+
+rates = [['USD', 'JPY', 100], ['JPY', 'CHN', 20], ['CHN', 'THAI', 200], ['JPY', 'PESO', 5], ['PESO', 'CHN', 100], ['EURO', 'DOA', 50]]
+queries = [['USD', 'CHN'], ['JPY', 'THAI'], ['USD', 'AUD'], ['THAI', 'PESO']]
+print(find_conversion_rates(rates, queries))
