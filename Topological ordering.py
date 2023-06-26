@@ -9,7 +9,7 @@ graph = {
 }
 
 Topological ordering is just the reverse of postorder.
-So we can just can the postorder and then reverse the list.
+So we can just get the postorder and then reverse the list.
 
 def topo_ordering(graph):
     stack= []
